@@ -3,7 +3,10 @@ class Producto:
         self.nombre = nombre
         self.precio = precio
         self.stock = stock
-    
+
+    def mostrar_producto(self):
+        pass
+        
     def stock(self, stock, cantidad_producto, nombre):
         self.cantidad_producto = stock
 
@@ -26,3 +29,4 @@ mandarina = Producto("Mandarina",200,10)
 productos.agregar_producto(mandarina)
 
 print(productos.encontrar_producto("Mandarina"))
+
