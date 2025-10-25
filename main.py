@@ -3,3 +3,6 @@ class Producto:
         nombre = nombre
         precio = precio
         stock = stock
+
+    def mostrar_producto(self):
+        pass
